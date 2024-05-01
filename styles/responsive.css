@@ -1,0 +1,284 @@
+@media (max-width: 1200px) {
+    .apresentacao__foto{
+        width: 250px;
+    }
+
+    .formacao__quadro__subtitles {
+        white-space: wrap;
+        text-align: center;
+    }
+
+    .formacao__quadro__subtitles2 {
+        text-align: center;
+    }
+
+    .skills__quadro__subtitles {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 912px) {
+
+    .cabecalho{
+        padding: 2%
+    }
+
+    #link2, #link3, #link4, #link5 {
+        display: none;
+    }
+
+    .apresentacao {
+        gap: 3%;
+        padding: 3%;
+        justify-content: space-around;
+    }
+
+    .apresentacao__conteudo {
+        width: 60%;
+        gap: 10px;
+    }
+    
+   .apresentacao__conteudo__titulo {
+        font-size: 1.4rem;  
+    }
+
+   .apresentacao__conteudo__texto {
+        font-size: 1rem;
+    }
+
+   .apresentacao__foto {
+        width: 200px;
+    }
+
+    .aboutMe {
+        padding: 1% 5%;
+    }
+
+   .apresentacao__links {
+        gap: 10px;
+        justify-content: flex-start;
+
+    }
+
+   .apresentacao__links__subtitulo {
+        font-size: 1rem;
+    }
+
+    .apresentacao__links__navegacao {
+        font-size: 0.9rem;
+        padding: 8px 5px;
+    }
+
+    .apresentacao__links__navegacao__img {
+        height: 1rem;
+    }
+
+    .skills__titulo, .formacao__titulo, .hobbies__titulo, .projetos__titulo {
+        font-size: 1.6rem;
+        margin: 2%;
+    }
+
+    .skills__quadros {
+        flex-wrap: wrap;
+    }
+
+    .skills__quadro__logos{
+        width: 8%;
+        padding: 80px 90px 10px 10px;
+        margin: 1.5%;
+    }
+
+    .formacao__quadros {
+        justify-content: space-between;
+        margin: 1% 5%;
+    }
+
+    .formacao__quadro__img {
+        width: 9.5em;
+    }
+
+    .formacao__quadro__logos {
+        width: 100%;
+    }
+
+    .formacao__quadro__subtitles, .formacao__quadro__subtitles2 {
+        padding: 3%;
+        line-height: 1.3;
+    }
+
+    .projetos__jogo, .projetos__desafio {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .projetos__quadros__img {
+        width: 70%;
+    }
+
+    .projetos__quadros__text {
+        width: 50%;
+        margin-top: 2%;
+    }
+
+    .contatos__img {
+        display: none;
+    }
+
+    .contatos__text {
+        width: 80%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .cabecalho__menu__link {
+        font-size: 0.75rem;
+        align-self: center;
+        padding: 0 1%;
+        white-space: nowrap;    
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        gap: 10px;
+        padding: 2% 2%;
+    }
+
+    .apresentacao__conteudo {
+        width: 90%;
+    }
+    
+   .apresentacao__conteudo__titulo {
+        font-size: 1.1rem;
+    }
+
+   .apresentacao__conteudo__texto {
+     font-size: 0.85rem;
+    }
+
+   .apresentacao__foto {
+        width: 170px;
+        align-self: center;
+    }
+
+    .aboutMe {
+        padding: 1% 8%;
+    }
+
+   .apresentacao__links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   .apresentacao__links__subtitulo {
+    font-size: 1rem;
+    }
+
+    .apresentacao__links__navegacao {
+        font-size: 1rem;
+        gap: 6px;
+        width:40%;
+        padding: 6px;
+    }
+
+    .apresentacao__links__navegacao__img {
+        height: 1rem;
+    }
+
+    .skills__titulo, .formacao__titulo, .hobbies__titulo, .projetos__titulo {
+        font-size: 1.6rem;
+        margin: 2%;
+    }
+
+    .skills__quadros {
+        margin: 4% 1%;
+    }
+
+    .skills__quadro__logos{
+        width: 8%;
+        padding: 60px 100px 10px 10px;
+        margin: 1.5%;
+    }
+
+    .skills__quadro__img {
+        width: 2rem;
+    }
+
+    .skills__quadro__subtitles{
+        font-size: 1rem;
+        padding: 10%;
+    }
+
+    .formacao__quadros {
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+    }
+
+    .formacao__quadro__img {
+        width: 12em;
+        margin: 10%;
+    }
+
+    .formacao__quadro__subtitles, .formacao__quadro__subtitles2 {
+        white-space: nowrap;
+        font-size: 0.85rem;
+        padding: 3%;
+    }
+
+    .projetos__jogo, .projetos__desafio {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+    
+    .projetos__quadros__img {
+        width: 70%;
+    }
+
+    .projetos__quadros__text {
+        width: 50%;
+        margin-top: 2%;
+    }
+
+    .projetos__quadros__text {
+        width: 90%;
+    }
+
+    .projetos__quadros__subtitle {
+        padding: 3% 0;
+
+    }
+
+    .projetos__quadros__buttons {
+        width: 100%;
+    }
+
+    .contatos__text {
+        width: 95%;
+    }
+
+    .contatos__title{
+        align-self: center;
+    }
+
+    .contatos__subtitle {
+        text-align: justify;
+    }
+
+    .contatos__button {
+        width: 35%;
+        align-self: center;
+        margin-top: 2%;
+    }
+
+    form {
+        margin: 1% 0 5% 0;
+    }
+
+    .rodape{
+        padding: 14px 2px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+}
